@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>results</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">results</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <input type="text" [(ngModel)]='valorBusqueda' ><button (click)="toResult()">busqueda</button>
+</ion-content>
